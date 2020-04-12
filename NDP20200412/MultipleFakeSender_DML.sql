@@ -1,0 +1,4 @@
+INSERT INTO ADM_SYSTEM_PROPERTIES (GROUP_NAME, KEY, VALUE, DESCRIPTION) VALUES ('GENERAL', 'SENDER_NAME_LENGTH', '20', 'max length allowed for Sender name');
+INSERT INTO ADM_SYSTEM_PROPERTIES (GROUP_NAME,KEY,VALUE,DESCRIPTION) VALUES ('SMPP_ADAPTER','QUOTA_WEBSERVICE_TIMEOUT','3600000','Time to keep retrying to reach quota webservice in case of timeout.(in minutes)');
+INSERT INTO ADM_SYSTEM_PROPERTIES (GROUP_NAME,KEY,VALUE,DESCRIPTION) VALUES ('SMPP_ADAPTER','QUOTA_WEBSERVICE_TIMEOUT_SLEEP_TIME','30','Time to sleep before retrying to reach the quota webservice in case of timeout.(in seconds)');
+INSERT INTO ADM_SYSTEM_PROPERTIES (GROUP_NAME, KEY, VALUE, DESCRIPTION) Values ('B2B_CAMPAIGN_HANDLER', 'DB_UNREACHABLE_LOG_THRESHOLD', '1', 'Time to wait between each log for unreachable database (in minutes).');
